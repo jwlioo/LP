@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2025-02-26\ at\ 16.12.26.jpeg);
+    background-attachment: fixed;
+}
+
+.github{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 80% ; 
+}
+.devs{
+    margin-left: 64px;
+}
+.text-xlarge.c1-75{
+    transition: all 0.2s ease-in;
+}
+.text-xlarge.c1-75:hover{
+    color: rgb(155, 130, 105);
+    text-decoration-line: underline;
+    transition: all 0.2s ease-in;
+}
+.gif{
+    width: 60%;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    transition: all 0.2s ease-in;
+}
+.gif:hover{
+    transform: scale(90%);
+    transition: all 0.2s ease-in;
+}
+.nav__button{
+    transition: all 0.2s ease-in;
+}
+.nav__button:hover{
+    transform: scale(90%);
+    transition: all 0.2s ease-in;
+}
+.w-inline-block{
+    transition: all 0.2s ease-in;
+}
+.w-inline-block:hover{
+    transform: scale(90%);
+    transition: all 0.2s ease-in;
+}
+.livro{
+    width: 60%;
+}
+u{
+    color: grey;
+}
+u:hover{
+    color: rgb(41, 41, 41);
+}
+p{
+    text-indent: 30px;
+}
+.subtitulo{
+    font-size: 30px;
+    color: black;
+}
+@media(min-width: 768px){
+    .mobile-only{
+        display:none
+    }
+}
+@media(max-width: 768px){
+    .desktop-only{
+        display:none
+    }
+}
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+b{
+    color: rgb(37, 37, 37);
+}
